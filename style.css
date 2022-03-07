@@ -2,17 +2,17 @@
 
 /* Variáveis Root */
 :root {
-    --color-primaria: #7380ec;
-    --color-perigo: #ff7782;
-    --color-sucesso: #41f1b6;
-    --color-atencao: #ffbb55;
+    --color-primary: #7380ec;
+    --color-danger: #ff7782;
+    --color-success: #41f1b6;
+    --color-warning: #ffbb55;
     --color-white: #fff;
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
     --color-dark: #363949;
     --color-light: rgba(132, 139, 200, 0.18);
-    --color--primaria-variante: #111e88;
-    --color-dark-variante: #677483;
+    --color--primary-variant: #111e88;
+    --color-dark-variant: #677483;
     --color-background: #f6f6f9;
 
     --card-border-radius: 2rem;
@@ -49,6 +49,14 @@ body {
     background: var(--color-background);
     user-select: none;
     overflow-x: hidden;
+}
+
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
 }
 
 a {
@@ -92,6 +100,51 @@ small {
     overflow: hidden;
 }
 
-.text.muted {
-    
+.text-muted {
+    color: var(--color-info-dark);
+}
+
+p {
+    color: var(--color-dark-variant);
+}
+
+b {
+    color: var(--color-dark);
+}
+
+.primary {
+    color: var(--color-primary);
+}
+
+.danger {
+    color: var(--color-danger);
+}
+
+.success {
+    color: var(--color-success);
+}
+
+.warnig {
+    color: var(--color-warnig);
+}
+
+aside {
+    height: 100vh;
+}
+
+aside .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
+aside .logo {
+display: flex;
+gap: 0.8rem;
+}
+
+aside .logo img {
+    width: 2rem;
+    height: 2rem;
 }
