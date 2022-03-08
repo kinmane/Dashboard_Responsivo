@@ -125,8 +125,8 @@ b {
     color: var(--color-success);
 }
 
-.warnig {
-    color: var(--color-warnig);
+.warning {
+    color: var(--color-warning);
 }
 
 aside {
@@ -330,4 +330,8 @@ main .insights .progress .number {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main .insights small {
+    margin-top: 1.6rem;
 }
