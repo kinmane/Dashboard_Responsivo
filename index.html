@@ -25,11 +25,11 @@
                 </div>
             </div> <!--/Topo-->
             <div class="sidebar"> <!--Sidebar-->
-                <a href="#">
+                <a href="#" class="active">
                     <span class="material-icons-sharp">grid_view</span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="#" class="active">
+                <a href="#">
                     <span class="material-icons-sharp">person_outline</span>
                     <h3>Clientes</h3>
                 </a>
@@ -129,7 +129,7 @@
                     <small class="text-muted">Últimas 24 horas</small>
                 </div> <!--/Rendimentoss-->
             </div> <!--/Insights-->
-            <div class="recent-orders">
+            <div class="recent-orders"> <!--Pedidos Recentes-->
                 <h2>Pedidos Recentes</h2>
                 <table>
                     <thead>
@@ -194,8 +194,108 @@
                     </tbody>
                 </table>
                 <a href="#">Mostrar Todos</a>
-            </div>
+            </div> <!--Pedidos Recentes-->
         </main> <!--/Main-->
+        <div class="right">
+            <div class="top"> <!--Topo Direito-->
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Daniel</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="img/profile_1.jpg">
+                    </div>
+                </div>
+            </div> <!--/Topo Direito-->
+            <div class="recent-update"> <!--Compras Recentes-->
+                <h2>Compras Recentes</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="img/profile_2.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Zezinho</b> Recebeu seu pedido de Cadeira Gamer DT3 Sport</p>
+                            <small class="text-muted">Há 2 minutos</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="img/profile_3.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Wiliam (barba)</b> Recebeu seu pedido de Placa Mãe Gigabyte B660M</p>
+                            <small class="text-muted">Há 1 hora</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="img/profile_4.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Pedrinho</b> Recebeu seu pedido de Mouse Gamer Zowie FK1-B</p>
+                            <small class="text-muted">Há 5 horas</small>
+                        </div>
+                    </div>
+                </div>
+            </div>  <!--/Compras Recentes-->
+            <div class="sales-analytics">
+                <h2>Análise de Vendas</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Pedidos Online</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Pedidos Locais</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="danger">-17%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Novos Clientes</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="success">+25%</h5>
+                        <h3>849</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Adicionar Produtos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
