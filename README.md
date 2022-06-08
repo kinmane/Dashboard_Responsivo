@@ -1,3 +1,5 @@
 # Dashboard_Responsivo
- Dashboard admin responsivo usando HTML, CSS e JavaScript
- Com Ligth e dark mode.
+ Dashboard responsivo usando as tecnologias:
+ HTML5
+ CSS
+ JavaScript - Ligth/Dark mode, Menus e Arrays
